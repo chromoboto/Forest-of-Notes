@@ -13,4 +13,5 @@ At the terminal:
   `cd Forrest-of-Notes`
 3. Install dependencies
   `npm install`
+
 Then open index.html in the dist subdirectory
