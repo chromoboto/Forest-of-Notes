@@ -9,6 +9,11 @@ The forrest spins so that the user can interact and explore, clicking on leaves 
 <img width="1440" alt="screen shot 2018-10-31 at 11 06 22 am" src="https://user-images.githubusercontent.com/40576412/47797841-802bf080-dcfd-11e8-85ed-b157c81f68c9.png">
 
 # To Play With It:
+At the terminal:
 1. Clone this repository
-2. `npm install`
-3. Open index.html
+  `git clone git@github.com:chromoboto/Forrest-of-Notes.git`
+2. Navigate into the directory that was just created
+  `cd Forrest-of-Notes`
+3. Install dependencies
+  `npm install`
+Then open index.html in the dist subdirectory
