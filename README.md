@@ -3,7 +3,7 @@ Visualizing a notebook as a forrest using WebGL (regl). The forrest is created b
 
 The forrest spins so that the user can interact and explore, clicking on leaves to read the note it represents.
 
-<img width="1440" alt="screen shot 2018-10-31 at 11 07 32 am" src="https://user-images.githubusercontent.com/40576412/47797833-7c986980-dcfd-11e8-853d-c9c7342d7afe.png">
 <img width="1440" alt="screen shot 2018-10-31 at 11 06 52 am" src="https://user-images.githubusercontent.com/40576412/47797836-7dc99680-dcfd-11e8-99bd-74bc8849e7d5.png">
+<img width="1440" alt="screen shot 2018-10-31 at 11 07 32 am" src="https://user-images.githubusercontent.com/40576412/47797833-7c986980-dcfd-11e8-853d-c9c7342d7afe.png">
 <img width="1440" alt="screen shot 2018-10-31 at 11 07 06 am" src="https://user-images.githubusercontent.com/40576412/47797837-7e622d00-dcfd-11e8-9344-c3992b10d2ae.png">
 <img width="1440" alt="screen shot 2018-10-31 at 11 06 22 am" src="https://user-images.githubusercontent.com/40576412/47797841-802bf080-dcfd-11e8-85ed-b157c81f68c9.png">
