@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forrest of Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Forrest of Notes -->
+  <div>
+    <div id="notesC">
+      <div id="notesHTML">
+        <h3 id="noteTitle">Forrest of Notes</h3>
+          <ul id="drawer" class="drawer-thin">
+            <li>
+              <div id="noteDisplay"></div>
+            </li>
+            <div id="clickLeavesText">Click Leaves To Explore Notes </div>
+            <button id="closeNote" type="button" class="btn btn-primary btn-sm" style="visibility: hidden;">X</button>
+          </ul>
+      </div>
+      <button id="toggleBtn" type="button" class="btn btn-primary btn-sm">Click To Pause</button>
+      <div>
+        <canvas id="notes"></canvas>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
