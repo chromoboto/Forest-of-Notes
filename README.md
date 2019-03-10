@@ -3,7 +3,7 @@ The forest is created by representing the notebook structure of topics, subtopic
 
 The forest spins so that the user can interact and explore, clicking on leaves to read the note it represents.
 
-![forestofnotes](https://user-images.githubusercontent.com/40576412/47810555-f0486f80-dd19-11e8-89bb-dc08188bc729.gif)
+![forestOfNotes](https://user-images.githubusercontent.com/40576412/54087944-a2c6b980-432e-11e9-871e-a755bb0f1bef.gif)
 
 # To Play With It:
 At the terminal:
