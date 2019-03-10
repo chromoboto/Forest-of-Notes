@@ -138,25 +138,25 @@ function randomNumE() {
   return stringOfEs;
 }
 
-function createForrestExpression() {
-  let theForrestExpression = '';
+function createForestExpression() {
+  let theForestExpression = '';
 
   Object.keys(notes).forEach((treeKey) => {
     // key: the name of the object key
     // index: the ordinal position of the key within the object
-    theForrestExpression += `T${randomNumE()}`;
+    theForestExpression += `T${randomNumE()}`;
 
     Object.keys(notes[treeKey]).forEach((branchKey) => {
-      theForrestExpression += `E[${rightOrLeftBranch()}B`;
+      theForestExpression += `E[${rightOrLeftBranch()}B`;
       Object.keys(notes[treeKey][branchKey]).forEach((leafKey) => {
         leaves.push(`<h6 style="display: inline; margin-top: 0px; padding-top: 0px"> Topic: </h6>${treeKey}<br> <h6 style="display: inline;"> Title: </h6>${branchKey}<br> <h6 style="display: inline;"> Note: </h6>${notes[treeKey][branchKey][leafKey]}`);
-        theForrestExpression += `E${rightOrLeftBranch()}[L]`;
+        theForestExpression += `E${rightOrLeftBranch()}[L]`;
       });
       // end the branch
-      theForrestExpression += `]${randomNumE()}`;
+      theForestExpression += `]${randomNumE()}`;
     });
   });
-  return theForrestExpression;
+  return theForestExpression;
 }
 
 
@@ -318,7 +318,7 @@ function plantRun() {
 
 function plantInit() {
   plantVars.currentSymbol = '';
-  plantVars.ExpressionToRun = createForrestExpression();
+  plantVars.ExpressionToRun = createForestExpression();
 
   plantRun();
 }
